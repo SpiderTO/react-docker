@@ -81,7 +81,7 @@ const App = () => {
               fontSize: { xs: '1.2rem', md: '1.5rem' }
             }}
           >
-            Discover amazing people from around the world
+            Discover amazing people in the world!
           </Typography>
           
           <Button
