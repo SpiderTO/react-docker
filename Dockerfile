@@ -4,10 +4,9 @@ WORKDIR /app
 
 COPY . /app
 
-RUN npm ci 
-
+RUN npm ci
 RUN npm run build
 
-EXPOSE 3000
+EXPOSE 4000
 
-CMD ["npx", "serve", "-s", "dist"]
+CMD ["npx", "serve", "-s", "dist", "-l", "4000"]
